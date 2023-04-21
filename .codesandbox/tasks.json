@@ -70,8 +70,16 @@
       "name": "Install",
       "command": "yarn install",
       "restartOn": {
-        "files": ["yarn.lock", "**/package.json"]
+        "files": [
+          "yarn.lock",
+          "**/package.json"
+        ],
+        "branch": local
       }
+    },
+   { import "./styles.css";
+   
+   document.getElementsById()
     }
   }
 }
